@@ -109,6 +109,7 @@ def download_podcasts(config, podcasts_to_download):
 
     with alive_bar(len(podcasts_to_download)) as bar:
         for podcast in podcasts_to_download:
+            file_count += 1
             file_name = clean_title(podcast.title) + ".mp3"
             file_path = os.path.join(
                 config[ConfigFields.NEW_EPISODES_DIR.value], file_name)
@@ -123,7 +124,6 @@ def download_podcasts(config, podcasts_to_download):
 
             fetch_mp3(url, file_path)
             format_podcast(file_path, file_count)
-            file_count += 1
             bar()
 
     print("Downloading complete!")
