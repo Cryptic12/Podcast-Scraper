@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="" ?>
+<rss version="2.0"
+    xmlns:atom=""
+    xmlns:googleplay=""
+    xmlns:itunes=""
+    xmlns:media=""
+    xmlns:podaccess=""
+    xmlns:acast="">
+    <channel>
+        <ttl>60</ttl>
+        <title>Abroad in Japan</title>
+        <language>en</language>
+        <copyright></copyright>
+        <description></description>
+
+        <item>
+            <title>Disallowed Chars Start @#$%^&amp;*() End</title>
+            <pubDate>Sat, 1 Jan 2022 00:00:01 GMT</pubDate>
+            <enclosure url="http://127.0.0.1:5000/resource/test_podcast_1.mp3" length="" type="audio/mpeg"/>
+        </item>
+
+    </channel>
+
+</rss>
